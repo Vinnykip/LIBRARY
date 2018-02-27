@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="libsys">
+</Property><Property Name="Solution File" Value="D:\Libsys\libsys\libsys.sln">
+</Property><Property Name="Date" Value="Tuesday, May 20, 2014">
+</Property><Property Name="Time" Value="17:57 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="libsys" Source="libsys\libsys.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="libsys" Source="libsys\libsys.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="libsys.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="libsys.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\libsys.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
