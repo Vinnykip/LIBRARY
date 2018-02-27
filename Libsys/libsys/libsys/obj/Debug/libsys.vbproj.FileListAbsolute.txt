@@ -1,0 +1,38 @@
+G:\Libsys\libsys\libsys\bin\Debug\libsys.exe.config
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_available_Books_report.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_books_report.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_book_list.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_book_return_details.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_borrow.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_book_borrow_details.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_borrow_report.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_category.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_help.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_loading.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_login.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_main.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_members_list.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_members_report.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_return.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.frm_save.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.SplashScreen1.resources
+G:\Libsys\libsys\libsys\obj\Debug\libsys.vbproj.GenerateResource.Cache
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\bin\Debug\libsys.exe.config
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_available_Books_report.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_books_report.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_book_list.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_book_return_details.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_borrow.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_book_borrow_details.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_borrow_report.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_category.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_help.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_loading.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_login.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_main.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_members_list.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_members_report.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_return.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.frm_save.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.SplashScreen1.resources
+C:\Users\VINNY\Documents\class work\Libsys\libsys\libsys\obj\Debug\libsys.vbproj.GenerateResource.Cache

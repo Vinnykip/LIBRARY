@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="libsys">
+</Property><Property Name="Solution File" Value="C:\Users\user-pc\Desktop\Libsys\libsys\libsys.sln">
+</Property><Property Name="User Options File" Value="C:\Users\user-pc\Desktop\Libsys\libsys\libsys.suo">
+</Property><Property Name="Date" Value="Wednesday, December 4, 2013">
+</Property><Property Name="Time" Value="17:28 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="libsys.sln" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys.sln">
+</Event><Event ErrorLevel="0" Project="" Source="libsys.suo" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys.suo">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\libsys.vbproj" Description="Project file successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\libsys.vbproj">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\libsys.vbproj.user" Description="Project user file successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\libsys.vbproj.user">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\books_dataset.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\books_dataset.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrowbookDataSet.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrowbookDataSet.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrow_dataset.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrow_dataset.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\category_dataset.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\category_dataset.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_available_Books_report.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_available_Books_report.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_available_Books_report.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_available_Books_report.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_books_report.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_books_report.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_books_report.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_books_report.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_list.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_list.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_list.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_list.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_return_details.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_return_details.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_return_details.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_return_details.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_borrow.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_borrow.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_borrow.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_borrow.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_borrow_details.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_borrow_details.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_borrow_details.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_borrow_details.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_borrow_report.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_borrow_report.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_borrow_report.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_borrow_report.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_category.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_category.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_category.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_category.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_help.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_help.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_help.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_help.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_loading.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_loading.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_loading.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_loading.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_login.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_login.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_login.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_login.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_main.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_main.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_main.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_main.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_members_list.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_members_list.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_members_list.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_members_list.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_members_report.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_members_report.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_members_report.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_members_report.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_return.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_return.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_return.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_return.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_save.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_save.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_save.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_save.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\member_dataset.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\member_dataset.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\My Project\Application.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\return_dataset.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\return_dataset.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\return_dataset.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\return_dataset.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\SplashScreen1.Designer.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\SplashScreen1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\SplashScreen1.vb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\SplashScreen1.vb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\app.config" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\app.config">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\My Project\Application.myapp" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\My Project\Settings.settings" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\IMG_0456.JPG" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\IMG_0456.JPG">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\user-group-icon.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\user-group-icon.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\libsys_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\libsys_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\Download-Windows-8-for-Dummies-E-Book-for-Free copy.jpg" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\Download-Windows-8-for-Dummies-E-Book-for-Free copy.jpg">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrowbookDataSet.xsc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrowbookDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrowbookDataSet.xsd" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrowbookDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrowbookDataSet.xss" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrowbookDataSet.xss">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\transaction1.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\transaction1.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrow_dataset.xsc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrow_dataset.xsc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrow_dataset.xsd" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrow_dataset.xsd">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrow_dataset.xss" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrow_dataset.xss">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\logo copy.jpg" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\logo copy.jpg">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\type-list1.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\type-list1.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\application24.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\application24.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\9249885206531349682.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\9249885206531349682.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\member_dataset.xsc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\member_dataset.xsc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\member_dataset.xsd" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\member_dataset.xsd">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\member_dataset.xss" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\member_dataset.xss">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\9249885206531349681.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\9249885206531349681.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\vista_login1.jpg" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\vista_login1.jpg">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\login1.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\login1.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\001_49.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\001_49.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\folder_home21.bmp" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\folder_home21.bmp">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\Search1.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\Search1.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\Add1.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\Add1.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\Actions-document-save-icon1.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\Actions-document-save-icon1.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\001_29.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\001_29.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\Search.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\Search.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\bg11.jpg" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\bg11.jpg">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\category_dataset.xsc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\category_dataset.xsc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\category_dataset.xsd" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\category_dataset.xsd">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\category_dataset.xss" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\category_dataset.xss">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\bg1.jpg" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\bg1.jpg">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\folder_home2.bmp" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\folder_home2.bmp">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\100227023905969.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\100227023905969.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\maintenance (1).png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\maintenance (1).png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\folder_home2.ico" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\folder_home2.ico">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\a.jpg" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\a.jpg">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\books_dataset.xsc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\books_dataset.xsc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\books_dataset.xsd" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\books_dataset.xsd">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\books_dataset.xss" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\books_dataset.xss">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\About-icon.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\About-icon.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\41267841319675478.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\41267841319675478.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\System_Preferences_icon2.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\System_Preferences_icon2.png">
+</Event><Event ErrorLevel="2" Project="libsys" Source="libsys\Resources\custom-reports1.png" Description="Failed to backup file as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\custom-reports1.png">
+</Event><Event ErrorLevel="2" Project="libsys" Source="libsys\Resources\System_Preferences_icon1.png" Description="Failed to backup file as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\System_Preferences_icon1.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Resources\System_Preferences_icon.png" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Resources\System_Preferences_icon.png">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\return_dataset.xsc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\return_dataset.xsc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\return_dataset.xsd" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\return_dataset.xsd">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\return_dataset.xss" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\return_dataset.xss">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\libsys.mdb" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\libsys.mdb">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\available_books.rdlc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\available_books.rdlc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\books_report.rdlc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\books_report.rdlc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrowbook.rdlc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrowbook.rdlc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\borrowed_books_report.rdlc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\borrowed_books_report.rdlc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_available_Books_report.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_available_Books_report.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_books_report.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_books_report.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_list.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_list.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_return_details.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_return_details.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_borrow.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_borrow.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_book_borrow_details.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_book_borrow_details.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_borrow_report.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_borrow_report.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_category.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_category.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_help.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_help.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_loading.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_loading.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_login.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_login.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_main.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_main.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_members_list.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_members_list.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_members_report.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_members_report.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_return.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_return.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\frm_save.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\frm_save.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\members.rdlc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\members.rdlc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\My Project\Resources.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\Report1.rdlc" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\Report1.rdlc">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\SplashScreen1.resx" Description="File successfully backed up as C:\Users\user-pc\Desktop\Libsys\libsys\Backup\libsys\SplashScreen1.resx">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\libsys.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="libsys" Source="libsys\libsys.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="libsys.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="libsys.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libsys" Source="libsys\libsys.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

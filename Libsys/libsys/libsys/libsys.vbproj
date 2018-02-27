@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5189BD27-78DC-4120-ACD5-345F9A794288}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>libsys.My.MyApplication</StartupObject>
+    <RootNamespace>libsys</RootNamespace>
+    <AssemblyName>libsys</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ManifestCertificateThumbprint>F7E5B4F810713C908D358C0276770676E0291187</ManifestCertificateThumbprint>
+    <ManifestKeyFile>libsys_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>C:\Users\xebie jane\Saved Games\Documents\library_system\new1\Libsys\libsys\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>libsys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>libsys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="books_dataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>books_dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="borrowbookDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>borrowbookDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="borrow_dataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>borrow_dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="category_dataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>category_dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frm_available_Books_report.Designer.vb">
+      <DependentUpon>frm_available_Books_report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_available_Books_report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_books_report.Designer.vb">
+      <DependentUpon>frm_books_report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_books_report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_book_list.Designer.vb">
+      <DependentUpon>frm_book_list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_book_list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_book_return_details.Designer.vb">
+      <DependentUpon>frm_book_return_details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_book_return_details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_borrow.Designer.vb">
+      <DependentUpon>frm_borrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_borrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_book_borrow_details.Designer.vb">
+      <DependentUpon>frm_book_borrow_details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_book_borrow_details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_borrow_report.Designer.vb">
+      <DependentUpon>frm_borrow_report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_borrow_report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_category.Designer.vb">
+      <DependentUpon>frm_category.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_category.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_help.Designer.vb">
+      <DependentUpon>frm_help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_loading.Designer.vb">
+      <DependentUpon>frm_loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.vb">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main.Designer.vb">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_members_list.Designer.vb">
+      <DependentUpon>frm_members_list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_members_list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_members_report.Designer.vb">
+      <DependentUpon>frm_members_report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_members_report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_return.Designer.vb">
+      <DependentUpon>frm_return.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_return.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_save.Designer.vb">
+      <DependentUpon>frm_save.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_save.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="member_dataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>member_dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MySettings.vb" />
+    <Compile Include="ReportViewer.vb" />
+    <Compile Include="Resources.vb" />
+    <Compile Include="return_dataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>return_dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="return_dataset.vb">
+      <DependentUpon>return_dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="available_books.rdlc" />
+    <EmbeddedResource Include="books_report.rdlc" />
+    <EmbeddedResource Include="borrowbook.rdlc" />
+    <EmbeddedResource Include="borrowed_books_report.rdlc" />
+    <EmbeddedResource Include="frm_available_Books_report.resx">
+      <DependentUpon>frm_available_Books_report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_books_report.resx">
+      <DependentUpon>frm_books_report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_book_list.resx">
+      <DependentUpon>frm_book_list.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_book_return_details.resx">
+      <DependentUpon>frm_book_return_details.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_borrow.resx">
+      <DependentUpon>frm_borrow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_book_borrow_details.resx">
+      <DependentUpon>frm_book_borrow_details.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_borrow_report.resx">
+      <DependentUpon>frm_borrow_report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_category.resx">
+      <DependentUpon>frm_category.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_help.resx">
+      <DependentUpon>frm_help.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_loading.resx">
+      <DependentUpon>frm_loading.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_members_list.resx">
+      <DependentUpon>frm_members_list.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_members_report.resx">
+      <DependentUpon>frm_members_report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_return.resx">
+      <DependentUpon>frm_return.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_save.resx">
+      <DependentUpon>frm_save.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="members.rdlc" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libsys.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\IMG_0456.JPG" />
+    <None Include="Resources\user-group-icon.png" />
+    <None Include="libsys_TemporaryKey.pfx" />
+    <None Include="Resources\Download-Windows-8-for-Dummies-E-Book-for-Free copy.jpg" />
+    <None Include="borrowbookDataSet.xsc">
+      <DependentUpon>borrowbookDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="borrowbookDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>borrowbookDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="borrowbookDataSet.xss">
+      <DependentUpon>borrowbookDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\transaction1.png" />
+    <None Include="borrow_dataset.xsc">
+      <DependentUpon>borrow_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="borrow_dataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>borrow_dataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="borrow_dataset.xss">
+      <DependentUpon>borrow_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\logo copy.jpg" />
+    <None Include="Resources\type-list1.png" />
+    <None Include="Resources\application24.png" />
+    <None Include="Resources\9249885206531349682.png" />
+    <None Include="member_dataset.xsc">
+      <DependentUpon>member_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="member_dataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>member_dataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="member_dataset.xss">
+      <DependentUpon>member_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\9249885206531349681.png" />
+    <None Include="Resources\vista_login1.jpg" />
+    <None Include="Resources\login1.png" />
+    <None Include="Resources\001_49.png" />
+    <None Include="Resources\folder_home21.bmp" />
+    <None Include="Resources\Search1.png" />
+    <None Include="Resources\Add1.png" />
+    <None Include="Resources\Actions-document-save-icon1.png" />
+    <None Include="Resources\001_29.png" />
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\bg11.jpg" />
+    <None Include="category_dataset.xsc">
+      <DependentUpon>category_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="category_dataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>category_dataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="category_dataset.xss">
+      <DependentUpon>category_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\bg1.jpg" />
+    <None Include="Resources\folder_home2.bmp" />
+    <None Include="Resources\100227023905969.png" />
+    <None Include="Resources\maintenance %281%29.png" />
+    <None Include="Resources\folder_home2.ico" />
+    <None Include="Resources\a.jpg" />
+    <None Include="books_dataset.xsc">
+      <DependentUpon>books_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="books_dataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>books_dataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="books_dataset.xss">
+      <DependentUpon>books_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\About-icon.png" />
+    <None Include="Resources\41267841319675478.png" />
+    <None Include="Resources\System_Preferences_icon2.png" />
+    <None Include="Resources\custom-reports1.png" />
+    <None Include="Resources\System_Preferences_icon1.png" />
+    <None Include="Resources\System_Preferences_icon.png" />
+    <None Include="return_dataset.xsc">
+      <DependentUpon>return_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="return_dataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>return_dataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="return_dataset.xss">
+      <DependentUpon>return_dataset.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
