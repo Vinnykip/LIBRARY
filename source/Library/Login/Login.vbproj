@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{619432F0-AFF6-47BD-8D58-7B2447911011}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Login.My.MyApplication</StartupObject>
+    <RootNamespace>Login</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Library Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Library Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CloudToolkitN6">
+      <HintPath>..\..\..\..\All Folders\References\CloudToolkitN6.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.7.0.9, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library\CatDialog.Designer.vb">
+      <DependentUpon>CatDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\CatDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\frmLabUsers.Designer.vb">
+      <DependentUpon>frmLabUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\frmLabUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\frmReportViewer.Designer.vb">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\frmReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\frmSearch.Designer.vb">
+      <DependentUpon>frmSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\frmSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\Main_Library.Designer.vb">
+      <DependentUpon>Main_Library.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\Main_Library.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\uscBarrow.designer.vb">
+      <DependentUpon>uscBarrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\uscBarrow.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\uscBookDtl.Designer.vb">
+      <DependentUpon>uscBookDtl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\uscBookDtl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\uscAuthorDtl.Designer.vb">
+      <DependentUpon>uscAuthorDtl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\uscAuthorDtl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\uscLabUser.Designer.vb">
+      <DependentUpon>uscLabUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\uscLabUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\uscMember.Designer.vb">
+      <DependentUpon>uscMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\uscMember.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\uscReturn.Designer.vb">
+      <DependentUpon>uscReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\uscReturn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Library\uscVendor.Designer.vb">
+      <DependentUpon>uscVendor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Library\uscVendor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\modFancyClose.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Startup\FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Startup\FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Startup\FrmNewUser.Designer.vb">
+      <DependentUpon>FrmNewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Startup\FrmNewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Startup\Loading.Designer.vb">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Startup\Loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Library\CatDialog.resx">
+      <DependentUpon>CatDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\frmLabUsers.resx">
+      <DependentUpon>frmLabUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\frmSearch.resx">
+      <DependentUpon>frmSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\Main_Library.resx">
+      <DependentUpon>Main_Library.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\uscBarrow.resx">
+      <DependentUpon>uscBarrow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\uscBookDtl.resx">
+      <DependentUpon>uscBookDtl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\uscAuthorDtl.resx">
+      <DependentUpon>uscAuthorDtl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\uscLabUser.resx">
+      <DependentUpon>uscLabUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\uscMember.resx">
+      <DependentUpon>uscMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\uscReturn.resx">
+      <DependentUpon>uscReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library\uscVendor.resx">
+      <DependentUpon>uscVendor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup\FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup\FrmNewUser.resx">
+      <DependentUpon>FrmNewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup\Loading.resx">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1962929-modern-hi-tech-design-is-a-illustration-for-web-application-or-desktop-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main_BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\chair.png" />
+    <None Include="Resources\Sofa-01.png" />
+    <None Include="Resources\1114869840.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\min.png" />
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
